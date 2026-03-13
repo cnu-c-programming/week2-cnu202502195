@@ -3,7 +3,7 @@
 int main()
 {
     int var1 = 100;
-    printf("int : %i\n", var1);
+    printf("int : %d\n", var1);
     printf("hex : %x\n", var1);
     printf("oct : %o\n", var1);
 
