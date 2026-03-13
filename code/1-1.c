@@ -13,7 +13,7 @@ int main()
     char* var3 = "hello world!";
     printf("string : %s\n", var3);
 
-    float var4 = 3.14592;
+    float var4 = 3.141592;
     printf("float : %f\n", var4);
     printf("exp : %e\n", var4);
 
