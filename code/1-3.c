@@ -1,8 +1,10 @@
 #include <stdio.h>
 
-int main()
-{
+int main() {
+    int age;
+    char grade;
+    float gpa;
 
-
-    return 0;
+    scanf("%d %f %c", &age, &gpa, &grade);
+    printf("%d %c %f\n", age, grade, gpa);
 }
