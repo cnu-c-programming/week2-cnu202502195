@@ -1,8 +1,15 @@
 #include <stdio.h>
 
 int main() {
-    printf("%f\n", 5/3);
-    printf("%f\n", (float)5/3);
 
+    int a = -1;
+    unsigned int b = 1;
+
+    if(a<b) {
+        printf("a < b\n");
+    }
+    else {
+        printf("a >= b ???\n");
+    }
     return 0;
 }
